@@ -1,0 +1,60 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Define variables in the :root */
+ :root {
+   --contrast: rgb(255, 255, 255);
+   --backgr: #000;
+ }
+
+/* Use your variables on elements */
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+ }
+
+ body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.form {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.formular1 {
+    background-image: url('/images/animebg.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the background image */
+    color: white; /* Text color to ensure readability */
+    padding: 50px; /* Adjust padding as needed */
+}
+
+.svarbillede {
+  background-image: url(/images/animebg.jpg);
+  color: white;
+  background-size: cover;
+}
+
+.tophead {
+  text-align: center;
+  background-image: url('/images/mangawhite.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; /* Ensures the background image covers the entire section */
+  background-position: center; /* Centers the background image */
+  color: rgb(0, 0, 0); /* Text color to ensure readability */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+input[type=submit] {
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 50px; /* Adjust font size as needed */
+  display: block;
+  margin: auto;
+  }
+
+  .submit1 {
+background-color: blueviolet;
+  }
